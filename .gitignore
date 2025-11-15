@@ -1,0 +1,46 @@
+# Build directories
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+local.properties
+.gradle/
+android-agent/build/
+android-agent/app/build/
+android-agent/.idea/
+*.iml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled scripts
+*.asc
+*.bin
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+vendor/
+
+# Test outputs
+screenshots/
+test-results/
