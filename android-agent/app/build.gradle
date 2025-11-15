@@ -40,14 +40,6 @@ android {
         viewBinding true
     }
 
-    ndkVersion "25.2.9519653"
-
-    externalNativeBuild {
-        cmake {
-            path file('CMakeLists.txt')
-            version '3.22.1'
-        }
-    }
 }
 
 dependencies {
@@ -57,18 +49,9 @@ dependencies {
     implementation 'com.google.android.material:material:1.11.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
-    // Accessibility
-    implementation 'androidx.accessibility:accessibility:1.0.0'
-
     // Coroutines
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
-
-    // OpenCV for Android
-    implementation 'org.opencv:opencv:4.8.0'
-
-    // Tesseract OCR
-    implementation 'com.rmtheis:tess-two:9.1.0'
 
     // Networking
     implementation 'com.squareup.okhttp3:okhttp:4.12.0'

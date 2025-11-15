@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidScript</string>
+
+    <!-- Main Activity -->
+    <string name="tab_scripts">Scripts</string>
+    <string name="tab_execution">Execution</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Script List -->
+    <string name="no_scripts">No scripts found</string>
+    <string name="load_script">Load Script</string>
+    <string name="create_script">Create New Script</string>
+    <string name="delete_script">Delete</string>
+    <string name="edit_script">Edit</string>
+
+    <!-- Execution -->
+    <string name="run_script">Run</string>
+    <string name="stop_script">Stop</string>
+    <string name="pause_script">Pause</string>
+    <string name="resume_script">Resume</string>
+    <string name="script_running">Running…</string>
+    <string name="script_stopped">Stopped</string>
+    <string name="script_paused">Paused</string>
+    <string name="script_completed">Completed</string>
+    <string name="script_error">Error</string>
+
+    <!-- Settings -->
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="accessibility_enabled">Accessibility Service Enabled</string>
+    <string name="accessibility_disabled">Accessibility Service Disabled</string>
+    <string name="open_accessibility_settings">Open Settings</string>
+    <string name="enable_network_server">Enable Network Server</string>
+    <string name="network_port">Port</string>
+    <string name="default_port">8888</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_label">AndroidScript Automation</string>
+    <string name="accessibility_service_description">Allows AndroidScript to automate UI interactions, find elements, and perform gestures on your device.</string>
+
+    <!-- Permissions -->
+    <string name="permission_required">Permission Required</string>
+    <string name="storage_permission_rationale">Storage permission is needed to read and write script files.</string>
+    <string name="overlay_permission_rationale">Overlay permission is needed to show floating controls during script execution.</string>
+
+    <!-- Errors -->
+    <string name="error_no_script_selected">No script selected</string>
+    <string name="error_script_not_found">Script file not found</string>
+    <string name="error_parse_failed">Failed to parse script</string>
+    <string name="error_execution_failed">Script execution failed</string>
+    <string name="error_accessibility_required">Accessibility service must be enabled</string>
+
+    <!-- Dialog -->
+    <string name="dialog_delete_title">Delete Script</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this script?</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_delete">Delete</string>
+</resources>
