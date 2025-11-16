@@ -1,0 +1,53 @@
+========================================
+  AndroidScript Rebuild Script
+========================================
+
+[1;33mCleaning build directory...[0m
+[0;32m✓ Build directory cleaned[0m
+
+Creating fresh build directory...
+Running CMake configuration...
+-- The CXX compiler identification is GNU 15.2.1
+-- The C compiler identification is GNU 15.2.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- OpenCV found: 4.12.0
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/aseio/source/android-r/build
+[0;32m✓ CMake configuration successful[0m
+
+Building project...
+[  5%] Building CXX object bridge/CMakeFiles/androidscript-bridge.dir/src/adb_client.cpp.o
+[ 10%] Building CXX object bridge/CMakeFiles/androidscript-bridge.dir/src/device_manager.cpp.o
+[ 15%] Building CXX object bridge/CMakeFiles/androidscript-bridge.dir/src/protocol.cpp.o
+[ 21%] Building CXX object bridge/CMakeFiles/androidscript-bridge.dir/src/transport.cpp.o
+[ 26%] Linking CXX static library ../lib/libandroidscript-bridge.a
+[ 26%] Built target androidscript-bridge
+[ 31%] Building CXX object core/CMakeFiles/androidscript-core.dir/src/lexer.cpp.o
+[ 36%] Building CXX object core/CMakeFiles/androidscript-core.dir/src/parser.cpp.o
+[ 42%] Building CXX object core/CMakeFiles/androidscript-core.dir/src/ast.cpp.o
+[ 47%] Building CXX object core/CMakeFiles/androidscript-core.dir/src/interpreter.cpp.o
+[ 52%] Building CXX object core/CMakeFiles/androidscript-core.dir/src/value.cpp.o
+[ 57%] Building CXX object core/CMakeFiles/androidscript-core.dir/src/environment.cpp.o
+[ 63%] Building CXX object core/CMakeFiles/androidscript-core.dir/src/builtins.cpp.o
+[ 68%] Building CXX object core/CMakeFiles/androidscript-core.dir/src/memory.cpp.o
+[ 73%] Linking CXX static library ../lib/libandroidscript-core.a
+[ 73%] Built target androidscript-core
+[ 78%] Building CXX object host-runtime/CMakeFiles/androidscript.dir/src/main.cpp.o
+[ 84%] Building CXX object host-runtime/CMakeFiles/androidscript.dir/src/runtime.cpp.o
+[ 89%] Building CXX object host-runtime/CMakeFiles/androidscript.dir/src/device_orchestrator.cpp.o
+[ 94%] Building CXX object host-runtime/CMakeFiles/androidscript.dir/src/command_executor.cpp.o
+[100%] Linking CXX executable ../bin/androidscript
+
+[0;31m========================================
+  ✗ Rebuild Failed
+========================================\033[0m

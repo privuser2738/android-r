@@ -82,6 +82,20 @@
             android:text="@string/stop_script" />
     </LinearLayout>
 
+    <!-- Download Series Button -->
+    <Button
+        android:id="@+id/downloadSeriesButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/accent"
+        android:text="Download Series from Firefox"
+        android:textAllCaps="false"
+        app:icon="@android:drawable/stat_sys_download"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/controlButtons" />
+
     <!-- Output Console -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/outputCard"
@@ -93,7 +107,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/controlButtons">
+        app:layout_constraintTop_toBottomOf="@id/downloadSeriesButton">
 
         <ScrollView
             android:layout_width="match_parent"

@@ -6,6 +6,7 @@ cmake-build-*/
 *.so
 *.dll
 *.exe
+build/
 
 # Android
 *.apk

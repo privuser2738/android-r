@@ -365,7 +365,7 @@ Value builtin_Device(const std::vector<Value>& args) {
     return Value::makeDevice(dev);
 }
 
-Value builtin_GetAllDevices(const std::vector<Value>& args) {
+Value builtin_GetAllDevices(const std::vector<Value>& /* args */) {
     auto adb_devices = g_adb_client.getDevices();
     ValueArray devices;
 

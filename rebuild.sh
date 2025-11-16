@@ -30,7 +30,9 @@ mkdir build
 cd build
 
 echo "Running CMake configuration..."
-if cmake .. ; then
+# Disable OpenCV to avoid VTK/HDF5 dependency issues
+# Note: The Kotlin host-controller is the recommended approach now
+if cmake -DWITH_OPENCV=OFF .. ; then
     echo -e "${GREEN}✓ CMake configuration successful${NC}"
     echo ""
 else
